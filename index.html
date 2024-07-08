@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Search Repositories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="search" placeholder="Search">
+    <div id="autocomplete" class="autocomplete"></div>
+    <ul id="repositories-list"></ul>
+    <div class="result">
+        <div class="repo-info">
+            <ul>
+                <li class="name"></li>
+                <li class="owner"></li>
+                <li class="stars"></li>
+            </ul>
+            <img src="img/images.png" width="30" height="30" class="remove-btn">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
